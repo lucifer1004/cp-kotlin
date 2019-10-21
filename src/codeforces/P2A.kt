@@ -1,11 +1,11 @@
 import java.util.Scanner
 
-class Transaction(name: String, score: Int) {
-    val name = name
-    val score = score
-}
-
 fun main(args: Array<String>) {
+    class Transaction(name: String, score: Int) {
+        val name = name
+        val score = score
+    }
+
     val scanner = Scanner(System.`in`)
     val n = scanner.nextInt()
     val scoreBoard = mutableMapOf<String, Int>()
